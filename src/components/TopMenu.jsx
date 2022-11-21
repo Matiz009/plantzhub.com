@@ -1,16 +1,34 @@
+import { AppBar, Toolbar, Typography, Button } from "@mui/material";
 import React from "react";
 import { Link } from "react-router-dom";
 
 const TopMenu = () => {
   return (
     <div className="links">
-      <Link to="/LandingPage">Home</Link>
-      <br />
-      <Link to="/Products">Products</Link>
-      <br />
-      <Link to="/ContactUs">Contact Us</Link>
-      <br />
-      <Link to="/Login">Login</Link>
+      <AppBar position="static">
+        <Toolbar>
+          <Typography variant="h5">
+            <Link to="/LandingPage" className="link">
+              Home
+            </Link>
+          </Typography>
+          <Typography variant="h5">
+            <Link to="/Products" className="link">
+              Products
+            </Link>
+          </Typography>
+          <Typography variant="h5">
+            <Link to="/ContactUs" className="link">
+              Contact Us
+            </Link>
+          </Typography>
+          <Typography variant="h5">
+            <Link to="/Login" className="link-login">
+              Login
+            </Link>
+          </Typography>
+        </Toolbar>
+      </AppBar>
     </div>
   );
 };

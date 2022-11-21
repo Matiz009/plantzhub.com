@@ -37,8 +37,14 @@
     }
 }
 
-.links {
-    display: flex;
-    align-items: center;
-    align-content: center;
+.link {
+    color: white;
+    text-decoration: none;
+    padding-right: 100px;
+}
+
+.link-login {
+    color: white;
+    text-decoration: none;
+    float: right;
 }
