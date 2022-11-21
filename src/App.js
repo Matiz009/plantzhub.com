@@ -5,6 +5,7 @@ import LandingPage from "./components/LandingPage";
 import Products from "./components/Products";
 import ContactUs from "./components/ContactUs";
 import Login from "./components/Login";
+import NotFound from "./components/NotFound";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route exact path="/Products" element={<Products />} />
           <Route exact path="/ContactUs" element={<ContactUs />} />
           <Route exact path="/Login" element={<Login />} />
+          <Route path="/*" element={<NotFound />} />{" "}
         </Routes>{" "}
       </div>{" "}
     </Router>
