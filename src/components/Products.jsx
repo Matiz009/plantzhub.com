@@ -15,7 +15,6 @@ const Products = () => {
             <Product
               title={record.title}
               price={record.price}
-              type={record.type}
               img={record.img}
             />{" "}
           </div>

@@ -1,5 +1,7 @@
-.main-cards {
-    display: grid;
+.container {
+    background-color: rgb(151, 196, 223);
+    display: flex;
     align-items: center;
-    align-content: center;
+    justify-content: center;
+    flex-direction: row;
 }

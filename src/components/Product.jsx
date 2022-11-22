@@ -12,37 +12,35 @@ import Col from "react-bootstrap/Col";
 
 const Product = (props) => {
   return (
-    <div className="main-cards">
-      <Container>
-        <Row>
-          <Col>
-            <Card sx={{ maxWidth: 345 }}>
-              <CardMedia
-                component="img"
-                height="140"
-                image={props.img}
-                alt="green iguana"
-              />
-              <CardContent>
-                <Typography gutterBottom variant="h5" component="div">
-                  {props.title}
-                </Typography>
-                <Typography variant="body2" color="text.secondary">
-                  {props.info}
-                </Typography>
-                <Typography variant="body2" color="text.secondary">
-                  {}
-                </Typography>
-              </CardContent>
-              <CardActions>
-                <Button size="small">Purchase</Button>
-                <Button size="small">Learn More</Button>
-              </CardActions>
-            </Card>
-          </Col>
-        </Row>
-      </Container>
-      <hr />
+    <div className="container">
+      <div className="main-cards">
+        <Container>
+          <Row>
+            <Col>
+              <Card sx={{ maxWidth: 345 }}>
+                <CardMedia
+                  component="img"
+                  image={props.img}
+                  alt="green iguana"
+                />
+                <CardContent>
+                  <Typography gutterBottom variant="h5" component="div">
+                    {props.title}
+                  </Typography>
+                  <Typography variant="h6" color="text.secondary">
+                    <h6>Price:{props.price}</h6>
+                  </Typography>
+                </CardContent>
+              </Card>
+            </Col>
+          </Row>
+        </Container>
+        <br />
+        <Button variant="contained">Purchase</Button>
+        <Button variant="outlined">Add to cart</Button>
+        <br />
+        <br />
+      </div>
     </div>
   );
 };
