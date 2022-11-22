@@ -2,15 +2,18 @@ import React from "react";
 import { TextField, Button, Grid, Typography } from "@mui/material";
 import { Link } from "react-router-dom";
 
-const Login = () => {
+const Register = () => {
   return (
     <>
       <Grid container spacing={3}>
         <Grid item xs={12}>
-          <h2>Login</h2>
+          <h4>Registration</h4>
         </Grid>
         <Grid item xs={4}></Grid>
         <Grid item xs={4}>
+          <TextField label="First Name" margin="normal" fullWidth />
+          <TextField label="Last Name" margin="normal" fullWidth />
+          <TextField label="Address" margin="normal" fullWidth />
           <TextField label="Email" margin="normal" fullWidth />
           <TextField
             label="Password"
@@ -23,10 +26,11 @@ const Login = () => {
         <Grid item xs={4}></Grid>
         <Grid item xs={4}>
           <Button variant="contained" color="primary" fullWidth>
-            Login
+            Register
           </Button>
           <Typography sx={{ m: 1.0 }} align="center">
-            Have you not registered? <Link to="/SignUp">Sign Up</Link>
+            Already Registered?
+            <Link to="/Login"> Login</Link>
           </Typography>
         </Grid>
       </Grid>
@@ -34,4 +38,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default Register;
