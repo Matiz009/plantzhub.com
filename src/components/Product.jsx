@@ -8,6 +8,7 @@ import "./Products.css";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import { Link } from "react-router-dom";
 
 const Product = (props) => {
   return (
@@ -35,7 +36,15 @@ const Product = (props) => {
           </Row>
         </Container>
         <br />
-        <Button variant="contained">Purchase</Button>
+        <Button variant="contained">
+          <Link
+            to="/Purchase"
+            className="text-decoration-none"
+            style={{ color: "white" }}
+          >
+            Purchase
+          </Link>
+        </Button>
         <Button variant="outlined">Add to cart</Button>
         <br />
         <br />

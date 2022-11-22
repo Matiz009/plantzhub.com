@@ -30,7 +30,10 @@ const SignUp = () => {
           </Button>
           <Typography align="center">
             Already Registered?
-            <Link to="/Login"> Login</Link>
+            <Link to="/Login" className="text-decoration-none ">
+              {" "}
+              Login
+            </Link>
           </Typography>
         </Grid>
       </Grid>

@@ -5,3 +5,13 @@
     justify-content: center;
     flex-direction: row;
 }
+
+.contact {
+    margin: 2%;
+    color: rgb(23, 74, 163);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.box {
+    background-color: azure;
+}

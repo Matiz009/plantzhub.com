@@ -1,7 +1,7 @@
 [{
-        "title": "Banana",
-        "price": "10 Rs",
-        "img": "https://www.pngpix.com/wp-content/uploads/2016/02/Banana-PNG-image.png"
+        "title": "Care Peace lily plant",
+        "price": "30 Rs",
+        "img": "https://www.plantandflowerinfo.com/images/plant-care-peace-lily-plant.jpg"
     },
     {
         "title": "Sansevieria plant",
@@ -9,13 +9,18 @@
         "img": "https://www.plantandflowerinfo.com/images/snake-plant-house-plantOG.jpg"
     },
     {
-        "title": "Orange",
+        "title": "Pothos plants care",
         "price": "30 Rs",
-        "img": "https://i.pinimg.com/736x/05/79/5a/05795a16b647118ffb6629390e995adb.jpg"
+        "img": "https://www.plantandflowerinfo.com/images/pothos-plants-care.jpg"
     },
     {
-        "title": "Orange",
-        "price": "30 Rs",
-        "img": "https://i.pinimg.com/736x/05/79/5a/05795a16b647118ffb6629390e995adb.jpg"
+        "title": "Aglaonema",
+        "price": "50 Rs",
+        "img": "https://www.plantandflowerinfo.com/images/aglaonema-houseplant-redOG.jpg"
+    },
+    {
+        "title": "Hoya House Plant",
+        "price": "100 Rs",
+        "img": "https://www.plantandflowerinfo.com/images/hoya-house-plant-with-flowersOG.jpg"
     }
 ]

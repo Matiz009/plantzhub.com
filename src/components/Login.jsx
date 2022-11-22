@@ -24,16 +24,29 @@ const Login = () => {
         <Grid item xs={4}></Grid>
         <Grid item xs={4}>
           <Button variant="contained" color="primary" fullWidth>
-            <Link to="/Products" style={{ color: "white" }}>
+            <Link
+              to="/Products"
+              style={{ color: "white" }}
+              className="text-decoration-none"
+            >
               Login
             </Link>
           </Button>
           <Typography sx={{ m: 1.0 }} align="center">
-            Have you not registered? <Link to="/SignUp">Sign Up</Link>
+            Have you not registered?{" "}
+            <Link to="/SignUp" className="text-decoration-none">
+              Sign Up
+            </Link>
           </Typography>
           <Typography sx={{ m: 1.0 }} align="center">
-            <Button variant="outlined">
-              <Link to="/Forgot">Forgot Password</Link>
+            <Button variant="contained" color="error">
+              <Link
+                to="/Forgot"
+                style={{ color: "white" }}
+                className="text-decoration-none"
+              >
+                Forgot Password
+              </Link>
             </Button>
           </Typography>
         </Grid>
