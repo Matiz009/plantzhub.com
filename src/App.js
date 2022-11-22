@@ -1,6 +1,5 @@
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import TopMenu from "./components/TopMenu";
 import LandingPage from "./components/LandingPage";
 import Products from "./components/Products";
 import ContactUs from "./components/ContactUs";
@@ -12,7 +11,6 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <TopMenu />
         <Routes>
           <Route exact path="/LandingPage" element={<LandingPage />} />
           <Route exact path="/Products" element={<Products />} />

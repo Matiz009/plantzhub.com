@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Login = () => {
   return (
-    <>
+    <div>
       <Grid container spacing={3}>
         <Grid item xs={12}>
           <h2>Login</h2>
@@ -30,7 +30,7 @@ const Login = () => {
           </Typography>
         </Grid>
       </Grid>
-    </>
+    </div>
   );
 };
 

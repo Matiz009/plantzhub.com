@@ -1,0 +1,5 @@
+.main-cards {
+    display: grid;
+    align-items: center;
+    align-content: center;
+}

@@ -2,7 +2,7 @@ import React from "react";
 import { TextField, Button, Grid, Typography } from "@mui/material";
 import { Link } from "react-router-dom";
 
-const Register = () => {
+const SignUp = () => {
   return (
     <>
       <Grid container spacing={3}>
@@ -38,4 +38,4 @@ const Register = () => {
   );
 };
 
-export default Register;
+export default SignUp;
