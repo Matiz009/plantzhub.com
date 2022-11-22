@@ -1,16 +1,17 @@
 import React from "react";
 import { TextField, Button, Grid, Typography } from "@mui/material";
 import { Link } from "react-router-dom";
-
-const Forgot = () => {
+const AdminRecover = () => {
   return (
     <div>
       <Grid container spacing={3}>
         <Grid item xs={12}>
-          <h2>Reset your Password</h2>
+          <h2 className="contact">Reset your Password</h2>
         </Grid>
         <Grid item xs={4}></Grid>
         <Grid item xs={4}>
+          <TextField label="Phone Number" margin="normal" fullWidth />
+          <br />
           <TextField label="New Password" margin="normal" fullWidth />
           <TextField
             label="Confirm Password"
@@ -40,4 +41,4 @@ const Forgot = () => {
   );
 };
 
-export default Forgot;
+export default AdminRecover;

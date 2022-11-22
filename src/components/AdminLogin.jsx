@@ -1,14 +1,16 @@
 import React from "react";
-import { TextField, Button, Grid, Typography } from "@mui/material";
+import "./Products.css";
+import { TextField, Typography, Grid, Button } from "@mui/material";
+import "bootstrap/dist/css/bootstrap.min.css";
+
 import { Link } from "react-router-dom";
 
-
-const Login = () => {
+const AdminLogin = () => {
   return (
     <div>
       <Grid container spacing={3}>
         <Grid item xs={12}>
-          <h2>Login</h2>
+          <h2 className="contact">Login</h2>
         </Grid>
         <Grid item xs={4}></Grid>
         <Grid item xs={4}>
@@ -34,14 +36,14 @@ const Login = () => {
           </Button>
           <Typography sx={{ m: 1.0 }} align="center">
             Have you not registered?{" "}
-            <Link to="/SignUp" className="text-decoration-none">
+            <Link to="/AdminSignUp" className="text-decoration-none">
               Sign Up
             </Link>
           </Typography>
           <Typography sx={{ m: 1.0 }} align="center">
             <Button variant="contained" color="error">
               <Link
-                to="/Forgot"
+                to="/AdminRecover"
                 style={{ color: "white" }}
                 className="text-decoration-none"
               >
@@ -49,6 +51,7 @@ const Login = () => {
               </Link>
             </Button>
           </Typography>
+
           <Typography>
             <Link to="/LandingPage" className="text-decoration-none text-black">
               Return to Home Page
@@ -60,4 +63,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default AdminLogin;

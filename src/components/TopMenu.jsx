@@ -29,9 +29,19 @@ const TopMenu = () => {
               Login
             </Link>
           </Typography>
+
+          <Button variant="standard" color="primary" className="link">
+            <a
+              href="AdminLogin"
+              style={{ color: "white" }}
+              className="text-decoration-none "
+            >
+              Login for Marketers
+            </a>
+          </Button>
           <Button variant="contained" color="error">
             <a
-              href="Login"
+              href="AdminSignUp"
               style={{ color: "white" }}
               className="text-decoration-none "
             >

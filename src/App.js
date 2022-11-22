@@ -8,6 +8,9 @@ import SignUp from "./components/SignUp";
 import NotFound from "./components/NotFound";
 import Forgot from "./components/Forgot";
 import Purchase from "./components/Purchase";
+import AdminLogin from "./components/AdminLogin";
+import AdminSignUp from "./components/AdminSignUp";
+import AdminRecover from "./components/AdminRecover";
 
 function App() {
   return (
@@ -18,6 +21,9 @@ function App() {
           <Route exact path="/Products" element={<Products />} />{" "}
           <Route exact path="/ContactUs" element={<ContactUs />} />{" "}
           <Route exact path="/Login" element={<Login />} />{" "}
+          <Route exact path="/AdminLogin" element={<AdminLogin />} />{" "}
+          <Route exact path="/AdminSignUp" element={<AdminSignUp />} />{" "}
+          <Route exact path="/AdminRecover" element={<AdminRecover />} />{" "}
           <Route exact path="/SignUp" element={<SignUp />} />{" "}
           <Route exact path="/Forgot" element={<Forgot />} />{" "}
           <Route exact path="/Purchase" element={<Purchase />} />{" "}
