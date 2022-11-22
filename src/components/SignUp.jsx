@@ -7,7 +7,7 @@ const SignUp = () => {
     <>
       <Grid container spacing={3}>
         <Grid item xs={12}>
-          <h4>Registration</h4>
+          <h4>Registration Form</h4>
         </Grid>
         <Grid item xs={4}></Grid>
         <Grid item xs={4}>
@@ -28,7 +28,7 @@ const SignUp = () => {
           <Button variant="contained" color="primary" fullWidth>
             Register
           </Button>
-          <Typography sx={{ m: 1.0 }} align="center">
+          <Typography align="center">
             Already Registered?
             <Link to="/Login"> Login</Link>
           </Typography>
