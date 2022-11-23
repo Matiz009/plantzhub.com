@@ -1,26 +1,36 @@
 [{
+        "id": "1",
         "title": "Care Peace lily plant",
         "price": "30 Rs",
+        "Quantity": "40",
         "img": "https://www.plantandflowerinfo.com/images/plant-care-peace-lily-plant.jpg"
     },
     {
+        "id": "2",
         "title": "Sansevieria plant",
         "price": "20 Rs",
+        "Quantity": "30",
         "img": "https://www.plantandflowerinfo.com/images/snake-plant-house-plantOG.jpg"
     },
     {
+        "id": "3",
         "title": "Pothos plants care",
         "price": "30 Rs",
+        "Quantity": "10",
         "img": "https://www.plantandflowerinfo.com/images/pothos-plants-care.jpg"
     },
     {
+        "id": "4",
         "title": "Aglaonema",
         "price": "50 Rs",
+        "Quantity": "60",
         "img": "https://www.plantandflowerinfo.com/images/aglaonema-houseplant-redOG.jpg"
     },
     {
+        "id": "5",
         "title": "Hoya House Plant",
         "price": "100 Rs",
+        "Quantity": "80",
         "img": "https://www.plantandflowerinfo.com/images/hoya-house-plant-with-flowersOG.jpg"
     }
 ]

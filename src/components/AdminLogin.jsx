@@ -27,7 +27,7 @@ const AdminLogin = () => {
         <Grid item xs={4}>
           <Button variant="contained" color="primary" fullWidth>
             <Link
-              to="/Products"
+              to="/Dashboard"
               style={{ color: "white" }}
               className="text-decoration-none"
             >

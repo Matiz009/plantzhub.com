@@ -30,6 +30,9 @@ const Product = (props) => {
                   <Typography variant="h6" color="text.secondary">
                     <h6>Price:{props.price}</h6>
                   </Typography>
+                  <Typography variant="h6" color="text.secondary">
+                    <h4>Availability:{props.quantity}</h4>
+                  </Typography>
                 </CardContent>
               </Card>
             </Col>

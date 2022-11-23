@@ -14,6 +14,10 @@ import AdminLogin from "./components/AdminLogin";
 import AdminSignUp from "./components/AdminSignUp";
 import AdminRecover from "./components/AdminRecover";
 import Dashboard from "./components/Dashboard";
+import AddPlants from "./components/AddPlants";
+import DeletePlants from "./components/DeletePlants";
+import UpdatePlants from "./components/UpdatePlants";
+import ViewPlants from "./components/ViewPlants";
 import Projects from "./components/Projects";
 
 function App() {
@@ -35,6 +39,10 @@ function App() {
           <Route path="/Forgot" element={<Forgot />} />{" "}
           <Route path="/Purchase" element={<Purchase />} />{" "}
           <Route path="/Dashboard" element={<Dashboard />} />{" "}
+          <Route path="/AddPlants" element={<AddPlants />} />
+          <Route path="/DeletePlants" element={<DeletePlants />} />
+          <Route path="/UpdatePlants" element={<UpdatePlants />} />
+          <Route path="/ViewPlants" element={<ViewPlants />} />
           <Route path="/*" element={<NotFound />} />{" "}
         </Routes>{" "}
       </div>{" "}

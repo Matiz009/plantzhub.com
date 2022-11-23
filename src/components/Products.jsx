@@ -16,6 +16,7 @@ const Products = () => {
               title={record.title}
               price={record.price}
               img={record.img}
+              quantity={record.Quantity}
             />{" "}
           </div>
         );
