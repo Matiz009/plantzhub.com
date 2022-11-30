@@ -1,0 +1,55 @@
+[{
+  "_id": {
+    "$oid": "6387bc8cc87e20dae57c6383"
+  },
+  "id": "01",
+  "username": "matiz",
+  "password": "@1234h",
+  "contact": "03147606860",
+  "email": "iammatiz00@gmail.com"
+},{
+  "_id": {
+    "$oid": "6387bdc4c87e20dae57c6386"
+  },
+  "id": "02",
+  "username": "zaki",
+  "password": "@1234hbh",
+  "contact": "03114444110",
+  "email": "zak00@gmail.com"
+},{
+  "_id": {
+    "$oid": "6387bdc4c87e20dae57c6387"
+  },
+  "id": "03",
+  "username": "zulqar",
+  "password": "@1234h23",
+  "contact": "03114444110",
+  "email": "zulqar089@gmail.com"
+},{
+  "_id": {
+    "$oid": "6387c5b5eb32f43bdeb21d05"
+  },
+  "id": "03",
+  "username": "ali",
+  "password": "123#gh",
+  "contact": "03154350040",
+  "email": "aliraza@gmail.com"
+},{
+  "_id": {
+    "$oid": "6387c5b5eb32f43bdeb21d06"
+  },
+  "id": "04",
+  "username": "raza",
+  "password": "hgt&qf5",
+  "contact": "03128790567",
+  "email": "raza123@gmail.com"
+},{
+  "_id": {
+    "$oid": "6387c6aeeb32f43bdeb21d08"
+  },
+  "id": "06",
+  "username": "zain",
+  "password": "@345$lkj",
+  "contact": "03158776453",
+  "email": "zain1234@gmail.com"
+}]
